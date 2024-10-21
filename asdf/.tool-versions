@@ -1,0 +1,8 @@
+java openjdk-9
+ruby 3.3.5
+python 3.13.0t
+erlang 27.1.2
+elixir 1.17.3-otp-27
+nodejs 23.0.0
+golang 1.23.2
+haskell 9.10.1
