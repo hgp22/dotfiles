@@ -1,0 +1,35 @@
+// Key binds defined by the user
+// that override the defaults
+[
+    // Copilot toggle
+    {
+        "key": "cmd+[Semicolon]",
+        "command": "github.copilot.toggleCopilot",
+    },
+    {
+        "key": "ctrl+l b",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+x b",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+shift+[BracketRight]",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    {
+        "key": "ctrl+t b",
+        "command": "breadcrumbs.toggle"
+    },
+    {
+        "key": "ctrl+j s",
+        "command": "java.open.formatter.settings"
+    },
+    {
+        "key": "ctrl+s b",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    }
+]
