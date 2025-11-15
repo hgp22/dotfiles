@@ -1,0 +1,33 @@
+{
+    // Formatting options
+    "editor.formatOnPaste": true,
+
+    // Visual Changes
+    "editor.cursorStyle": "block",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 2,
+    "editor.rulers": [80],
+
+    // Text Editor Rules
+    "editor.tabSize": 4,
+
+    // Never enable copilot by default
+    "github.copilot.enable": { "*": false, },
+
+    // Skip Prompts
+    "explorer.confirmDelete": true,
+
+    // Disable Telemetry
+    "telemetry.telemetryLevel": "off",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableChrashReporter": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    "python.analysis.typeCheckingMode": "strict",
+    "breadcrumbs.enabled": false,
+}
